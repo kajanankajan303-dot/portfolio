@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>R.KAJANANAN | ICT & Computer Hardware Technician</title>
+<meta name="description" content="Portfolio of R. Kajanan, an ICT and Computer Hardware Technician specializing in PC building, hardware troubleshooting, IT support and networking.">
+<meta property="og:title" content="R.KAJANANAN | ICT & Computer Hardware Technician">
+<meta property="og:description" content="PC building, hardware troubleshooting, IT support and networking by KajanTechBuilds.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0b0a12">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%238b6cff'/><stop offset='1' stop-color='%23ff5fa2'/></linearGradient></defs><g stroke='url(%23g)' stroke-width='3' stroke-linecap='round'><path d='M22 6v8M32 6v8M42 6v8M22 50v8M32 50v8M42 50v8M6 22h8M6 32h8M6 42h8M50 22h8M50 32h8M50 42h8'/></g><rect x='14' y='14' width='36' height='36' rx='9' fill='url(%23g)'/><path d='M26 24v16M26 32l12-8M26 32l12 8' stroke='%23140f26' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+/* Apply saved theme before first paint to avoid a flash */
+(function(){var t=null;try{t=localStorage.getItem('theme')}catch(e){}
+if(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches)t='light';
+if(t)document.documentElement.setAttribute('data-theme',t);})();
+</script>
+<script src="script.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main-content">Skip to content</a>
+
+<!-- Shared graphics: logo mark and fan blades -->
+<svg class="defs" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="gr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" style="stop-color:var(--a)"/><stop offset="1" style="stop-color:var(--b)"/></linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--a)"/><stop offset="1" style="stop-color:var(--b)"/></linearGradient>
+    <symbol id="logo" viewBox="0 0 64 64">
+      <g stroke="url(#gr)" stroke-width="3" stroke-linecap="round"><path d="M22 6v8M32 6v8M42 6v8M22 50v8M32 50v8M42 50v8M6 22h8M6 32h8M6 42h8M50 22h8M50 32h8M50 42h8"/></g>
+      <rect x="14" y="14" width="36" height="36" rx="9" fill="url(#gr)"/>
+      <path d="M26 24v16M26 32l12-8M26 32l12 8" stroke="var(--ink)" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="fan" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="47" fill="none" stroke="url(#gr)" stroke-width="3"/>
+      <g fill="url(#gr)" opacity=".9"><path d="M50 50C50 22 62 10 78 14 70 28 62 42 50 50Z"/><path d="M50 50C78 50 90 62 86 78 72 70 58 62 50 50Z"/><path d="M50 50C50 78 38 90 22 86 30 72 38 58 50 50Z"/><path d="M50 50C22 50 10 38 14 22 28 30 42 38 50 50Z"/></g>
+      <circle cx="50" cy="50" r="9" style="fill:var(--bg)"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="#home" aria-label="KajanTechBuilds home">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><use href="#logo"/></svg>
+      Kajan<span>TechBuilds</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a class="cta" href="#contact">Contact</a>
+      <button class="tog" id="tog" type="button" aria-label="Switch to light theme">
+        <svg id="ti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <div class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <p class="status"><b></b>Available for builds and repairs</p>
+        <h1>Custom PCs and fixes that <em>just work.</em></h1>
+        <p class="lede">I'm R. Kajanan, an ICT and computer hardware technician in Sri Lanka. I build PCs, track down faulty hardware and keep small networks online.</p>
+        <div class="btns">
+          <a class="btn pri" href="#contact">Start a project</a>
+          <a class="btn sec" href="#projects">See my work</a>
+        </div>
+      </div>
+
+      <div class="rig">
+        <svg viewBox="0 0 400 420" role="img" aria-label="Illustration of a custom PC with a glass side panel, glowing fans, liquid cooler, memory and graphics card">
+          <ellipse cx="200" cy="404" rx="140" ry="11" style="fill:var(--a)" opacity=".25"/>
+          <rect x="70" y="16" width="260" height="372" rx="30" style="fill:var(--surface2);stroke:var(--line)" stroke-width="2"/>
+          <rect x="84" y="30" width="232" height="344" rx="20" style="fill:var(--bg)"/>
+          <rect x="84" y="30" width="232" height="344" rx="20" fill="url(#gv)" opacity=".1"/>
+          <rect x="92" y="50" width="48" height="190" rx="8" style="fill:var(--surface2);stroke:var(--line)"/>
+          <g>
+            <g class="spin" style="transform-origin:116px 76px"><use href="#fan" x="92" y="52" width="48" height="48"/></g>
+            <g class="spin slow" style="transform-origin:116px 140px"><use href="#fan" x="92" y="116" width="48" height="48"/></g>
+            <g class="spin" style="transform-origin:116px 204px"><use href="#fan" x="92" y="180" width="48" height="48"/></g>
+          </g>
+          <path d="M176 96C152 96 156 80 140 80M176 112C152 112 158 204 140 204" fill="none" style="stroke:var(--c)" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+          <rect x="170" y="70" width="64" height="64" rx="14" style="fill:var(--surface2);stroke:var(--line)" stroke-width="2"/>
+          <circle cx="202" cy="102" r="22" fill="none" stroke="url(#gr)" stroke-width="3" class="pulse"/>
+          <path d="M195 92v20M195 102l11-9M195 102l11 9" stroke="url(#gr)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+          <g class="pulse">
+            <rect x="254" y="58" width="9" height="88" rx="3" fill="url(#gv)"/><rect x="267" y="58" width="9" height="88" rx="3" fill="url(#gv)"/>
+            <rect x="280" y="58" width="9" height="88" rx="3" fill="url(#gv)"/><rect x="293" y="58" width="9" height="88" rx="3" fill="url(#gv)"/>
+          </g>
+          <path d="M160 160H300M160 176H260M276 176H300M160 192H300" style="stroke:var(--line)" stroke-width="2" fill="none"/>
+          <rect x="262" y="164" width="44" height="40" rx="6" style="fill:var(--surface2);stroke:var(--line)"/>
+          <rect x="104" y="258" width="200" height="56" rx="12" style="fill:var(--surface2);stroke:var(--line)" stroke-width="2"/>
+          <g class="spin" style="transform-origin:156px 286px"><use href="#fan" x="134" y="264" width="44" height="44"/></g>
+          <g class="spin slow" style="transform-origin:252px 286px"><use href="#fan" x="230" y="264" width="44" height="44"/></g>
+          <rect x="190" y="276" width="30" height="20" rx="4" fill="url(#gr)" opacity=".85"/>
+          <path d="M84 332H316V354a20 20 0 0 1-20 20H104a20 20 0 0 1-20-20Z" style="fill:var(--surface)"/>
+          <rect x="104" y="338" width="192" height="4" rx="2" fill="url(#gr)" class="pulse"/>
+          <path d="M84 50L316 30V120L84 214Z" fill="#fff" opacity=".04"/>
+          <rect x="96" y="388" width="34" height="8" rx="3" style="fill:var(--surface2)"/><rect x="270" y="388" width="34" height="8" rx="3" style="fill:var(--surface2)"/>
+        </svg>
+        <span class="chip c1"><b>Clean</b> cable routing</span>
+        <span class="chip c2"><b>Stress-tested</b> before handover</span>
+        <span class="chip c3"><b>NVQ Level 4</b> trained</span>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>What I can do for you</h2>
+      <p class="sub">From a fresh build to the fault nobody else could trace.</p>
+      <div class="bento">
+        <article class="tile t1">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><circle cx="12" cy="9" r="2.5"/><path d="M9 16h6M9 19h3"/></svg></div>
+          <h3>PC building</h3>
+          <p>Parts matched to your budget and use: gaming, office or editing. Tidy cabling, tested airflow, and BIOS and drivers set up before you get it.</p>
+          <div class="tags"><span>Gaming rigs</span><span>Office PCs</span><span>Upgrades</span></div>
+        </article>
+        <article class="tile t2">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></div>
+          <h3>Troubleshooting</h3>
+          <p>No power, no display, random restarts, overheating. I test to find the failing part.</p>
+        </article>
+        <article class="tile t3">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></svg></div>
+          <h3>IT support</h3>
+          <p>OS installs, software setup, virus cleanup and data backup.</p>
+        </article>
+        <article class="tile t4">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg></div>
+          <h3>Networking</h3>
+          <p>Router and switch setup, cabling, Wi-Fi coverage fixes and connection faults for homes and small offices.</p>
+          <div class="tags"><span>Routers</span><span>Switches</span><span>Wi-Fi</span><span>Cabling</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="products">
+    <div class="wrap">
+      <h2>Products</h2>
+      <p class="sub">Real photos of the PCs, parts and gear I work with. Tap a photo to view it larger.</p>
+      <!-- Put your own photos in the images/ folder using these names: gaming-pc.jpg, office-pc.jpg, custom-build.jpg, ram-ssd.jpg, networking.jpg, repair-bench.jpg -->
+      <div class="shots" id="shots">
+        <figure class="shot">
+          <div class="photo t-a">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18H5zM12 9m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M9 16h6M9 19h3"/></svg>
+            <img src="images/gaming-pc.jpg" alt="Gaming PC" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>Gaming PC</h3><p>Tower builds with glass panels, tuned airflow and tested cooling.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="photo t-b">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h18v12H3zM8 20h8M12 16v4"/></svg>
+            <img src="images/office-pc.jpg" alt="Office PC" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>Office PC</h3><p>Reliable desktops set up for daily work, ready to plug in.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="photo t-c">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM9 9h6v6H9zM9 4v5M15 4v5M9 15v5M15 15v5"/></svg>
+            <img src="images/custom-build.jpg" alt="Custom build interior" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>Custom build interior</h3><p>Tidy cable routing and clean part layout inside the case.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="photo t-a">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18v8H3zM7 8v8M11 8v8M15 8v8M19 8v8"/></svg>
+            <img src="images/ram-ssd.jpg" alt="RAM and SSD upgrades" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>RAM and SSD upgrades</h3><p>Faster memory and storage for older desktops and laptops.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="photo t-b">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M12 19h.01"/></svg>
+            <img src="images/networking.jpg" alt="Routers and switches" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>Routers and switches</h3><p>Networking gear configured and cabled for homes and small offices.</p></figcaption>
+        </figure>
+        <figure class="shot">
+          <div class="photo t-c">
+            <svg class="ph" viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg>
+            <img src="images/repair-bench.jpg" alt="Repair bench" width="800" height="600" loading="lazy">
+          </div>
+          <figcaption><h3>Repair bench</h3><p>Testing tools and parts on the bench during a hardware repair.</p></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <p class="sub">Filter by the kind of work.</p>
+      <!-- Project photos go in images/ with these names: gaming-pc-build.jpg, office-pc-set.jpg, no-power-repair.jpg, laptop-upgrade.jpg, wifi-fix.jpg, office-network.jpg -->
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="chipbtn" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="chipbtn" data-filter="builds" aria-pressed="false">Builds</button>
+        <button type="button" class="chipbtn" data-filter="repairs" aria-pressed="false">Repairs</button>
+        <button type="button" class="chipbtn" data-filter="networking" aria-pressed="false">Networking</button>
+      </div>
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="grid" id="grid">
+      </div>
+    </div>
+  </section>
+
+  <section id="training">
+    <div class="wrap">
+      <h2>Trained and tested</h2>
+      <p class="sub">A formal qualification plus real time on a repair bench.</p>
+      <div class="cred">
+        <article class="tile">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg></div>
+          <div><span class="pill">NVQ Level 4</span><h3>Computer Hardware / ICT</h3><p>Covers computer hardware, system assembly, maintenance and ICT fundamentals.</p></div>
+        </article>
+        <article class="tile">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21h18M5 21V8l7-4 7 4v13M9 21v-6h6v6"/></svg></div>
+          <div><span class="pill">On-the-job training</span><h3>CD World</h3><p>Practical work on live customer repairs, builds and upgrades in a computer shop.</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" style="padding-top:24px">
+    <div class="marq" aria-label="Skills and tools">
+      <div class="track" id="track">
+        <span>PC assembly</span><span>BIOS / UEFI setup</span><span>Windows install</span><span>PSU and multimeter testing</span><span>Cooling and thermal paste</span><span>RAM and SSD upgrades</span><span>Cabling and crimping</span><span>Router configuration</span><span>Driver setup</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div class="cta-card">
+        <h2>Got a PC that won't boot, or a build in mind?</h2>
+        <div class="contact-links">
+          <a class="btn" href="https://www.linkedin.com/in/ramanan-kajanan-b9b8ab432" target="_blank" rel="noopener noreferrer">Message me on LinkedIn</a>
+          <a class="btn email-btn" id="gmail-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=kajanankajan303%40gmail.com" target="_blank" rel="noopener noreferrer">Email me on Gmail</a>
+        </div>
+      </div>
+      <form class="tile form" id="form" novalidate>
+        <h3>Send feedback or a message</h3>
+        <div class="field">
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-err">
+          <p class="err" id="name-err" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-err">
+          <p class="err" id="email-err" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="message">Your feedback or message</label>
+          <textarea id="message" name="message" rows="4" required aria-describedby="message-err"></textarea>
+          <p class="err" id="message-err" role="alert"></p>
+        </div>
+        <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <button class="btn pri" type="submit" id="send">Send feedback</button>
+        <p class="status-msg" id="status" role="status"></p>
+      </form>
+    </div>
+  </section>
+
+  <section id="booking">
+    <div class="wrap">
+      <h2>Request an appointment</h2>
+      <p class="sub">Choose a service and a preferred time. I’ll confirm your appointment by email.</p>
+      <form class="tile form booking-form" id="booking-form" novalidate>
+        <h3>Appointment details</h3>
+        <div class="booking-fields">
+          <div class="field">
+            <label for="booking-name">Your name</label>
+            <input id="booking-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="booking-email">Email</label>
+            <input id="booking-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="booking-service">Service</label>
+            <select id="booking-service" name="service" required>
+              <option value="">Choose a service</option>
+              <option>PC building or upgrade</option>
+              <option>Hardware troubleshooting or repair</option>
+              <option>IT support</option>
+              <option>Networking</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="booking-date">Preferred date</label>
+            <input id="booking-date" name="date" type="date" required>
+          </div>
+          <div class="field">
+            <label for="booking-time">Preferred time</label>
+            <input id="booking-time" name="time" type="time" required>
+          </div>
+          <div class="field booking-notes">
+            <label for="booking-notes">Anything else? (optional)</label>
+            <textarea id="booking-notes" name="notes" rows="3"></textarea>
+          </div>
+        </div>
+        <button class="btn pri" type="submit">Request appointment</button>
+        <p class="status-msg" id="booking-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<aside class="chatbot-widget" aria-label="Portfolio chatbot">
+  <button class="chatbot-launcher" id="chatbot-launcher" type="button" aria-expanded="false" aria-controls="chatbot-panel">
+    <svg class="chatbot-launcher-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M5 18.5 3.8 21l4-.9a9 9 0 1 0-2.8-1.6Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M8 12h.01M12 12h.01M16 12h.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    </svg>
+    <span>Chat with Kajanan</span>
+    <span class="chatbot-launcher-dot" aria-hidden="true"></span>
+  </button>
+  <section class="chatbot-panel" id="chatbot-panel" aria-label="Chat with Kajanan's portfolio chatbot" hidden>
+    <div class="chatbot-header">
+      <div class="chatbot-brand">
+        <span class="chatbot-avatar" aria-hidden="true">K</span>
+        <div><h2>KajanTechBuilds</h2><p><span class="chatbot-presence-dot" aria-hidden="true"></span>Portfolio chatbot</p></div>
+      </div>
+      <button class="chatbot-close" id="chatbot-close" type="button" aria-label="Minimize chatbot">−</button>
+    </div>
+    <div class="chatbot-log" id="chatbot-log" role="log" aria-live="polite" aria-relevant="additions text">
+      <p class="chatbot-message bot-message">Hi! I’m Kajanan’s portfolio chatbot. Ask me about PC building, training, services, football, or anything else.</p>
+    </div>
+    <div class="chatbot-quick-replies" role="group" aria-label="Suggested questions">
+      <button type="button" data-chat-prompt="What services do you offer?">What services do you offer?</button>
+      <button type="button" data-chat-prompt="Tell me about your training">Tell me about your training</button>
+      <button type="button" data-chat-prompt="How can I contact you?">How can I contact you?</button>
+    </div>
+    <form class="chatbot-form" id="chatbot-form">
+      <label class="sr-only" for="chatbot-input">Your message</label>
+      <textarea id="chatbot-input" name="message" rows="1" maxlength="2000" placeholder="Write a message..." required></textarea>
+      <button class="chatbot-send" id="chatbot-send" type="submit" aria-label="Send message">Send</button>
+    </form>
+    <p class="chatbot-status" id="chatbot-status" role="status" aria-live="polite"></p>
+    <p class="chatbot-privacy">Replies use Google Gemini when configured and otherwise a built-in portfolio assistant. Messages are not saved. Please don’t share sensitive information.</p>
+  </section>
+</aside>
+
+<dialog id="lightbox" aria-label="Photo viewer"><button type="button" id="lbclose" aria-label="Close photo">Close</button><img id="lbimg" alt=""></dialog>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="KajanTechBuilds home"><svg viewBox="0 0 64 64" aria-hidden="true"><use href="#logo"/></svg>Kajan<span>TechBuilds</span></a>
+    <span>© <span id="yr">2026</span> KajanTechBuilds. All rights reserved.</span>
+    <span><a class="top" href="#home" aria-label="Back to top">Back to top ↑</a></span>
+  </div>
+</footer>
+</body>
+</html>
